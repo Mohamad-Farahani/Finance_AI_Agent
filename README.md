@@ -1,6 +1,6 @@
 # 📈 Agentic Finance Analyst (RAG with Azure AI)
 
-![Demo of the application](assets/demo.gif)
+![Demo of the application](assets/Animation.gif)
 
 A Streamlit-based AI finance assistant that uses **Retrieval-Augmented Generation (RAG)** with **Azure OpenAI** and **Azure AI Search** to answer questions grounded in financial documents (e.g., 10-K reports).
 
