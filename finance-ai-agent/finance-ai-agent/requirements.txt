@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langchain-classic
+azure-search-documents>=11.4
+azure-identity
+pydantic
