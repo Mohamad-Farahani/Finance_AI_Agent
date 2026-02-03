@@ -53,9 +53,9 @@ This project uses **LangSmith** to solve the "black box" problem of LLMs.
 git clone [https://github.com/Mohamad-Farahani/Finance_AI_Agent.git](https://github.com/Mohamad-Farahani/Finance_AI_Agent.git)
 cd Finance_AI_Agent
 
-2. Configure Environment Variables
+###2. Configure Environment Variables
 Create a .env file in the root directory:
-
+```bash
 AZURE_OPENAI_API_KEY=your_key
 AZURE_OPENAI_ENDPOINT=your_endpoint
 AZURE_SEARCH_ENDPOINT=your_search_endpoint
@@ -63,9 +63,11 @@ AZURE_SEARCH_KEY=your_search_key
 LANGCHAIN_API_KEY=your_langsmith_key
 LANGCHAIN_TRACING_V2=true
 
-3. Install Dependencies
+###3. Install Dependencies
+```bash
 pip install -r requirements.txt
 
 
-4. Run Locally
+###4. Run Locally
+```bash
 streamlit run app.py
